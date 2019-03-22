@@ -1,0 +1,24 @@
+{
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "pendings": 0,
+    "tests": [
+        {
+            "label": "writing HTML or creating HTML",
+            "testCases": [
+                {
+                    "label": "write",
+                    "value": 107.19999996945262
+                },
+                {
+                    "label": "create",
+                    "value": 102.49999997904524
+                }
+            ],
+            "faster": 1,
+            "slower": 0,
+            "type": "perf"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@dinuovos/test-manager",
+  "version": "0.1.0",
+  "description": "test manager for @dinuovos/testsuite.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-manager"
+  },
+  "bin": {
+    "test-manager": "./bin/test-manager.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dinuovos/test-suite": "0.0.12",
+    "puppeteer": "1.10.0",
+    "puppeteer-core": "1.12.2"
+  }
+}
