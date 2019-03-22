@@ -34,7 +34,7 @@ var modulesProcessed = 1;
             console.log("\x1b[1m%s\x1b[0m", "[testsuite write json reports #"
                 + (modulesProcessed++) +
                 " of " + testManager.length + "] " +
-                moduleName + " writed");
+                moduleName + '.json' + " writed");
             modules--;
             if (modules == 0)
                 console.log("\x1b[1m%s\x1b[0m", "All modules processed");
