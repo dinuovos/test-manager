@@ -30,7 +30,7 @@ function testPuppeteer(url,filename,path){
                             " gave no false test." +
                             "\n" + JSON.stringify(testResult) +"\n"+
                             "Check " + filename +
-                            "-puppeteer-testresult.html" + " for more info",
+                            ".json" + " for more info",
                             "\x1b[0m")
                     }
                     else

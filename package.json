@@ -1,8 +1,8 @@
 {
   "name": "@dinuovos/test-manager",
-  "version": "0.1.0",
+  "version": "0.1.01",
   "description": "test manager for @dinuovos/testsuite.js",
-  "main": "index.js",
+  "main": "./bin/test-manager.js",
   "scripts": {
     "test": "test-manager"
   },
@@ -15,5 +15,9 @@
     "@dinuovos/test-suite": "0.0.12",
     "puppeteer": "1.10.0",
     "puppeteer-core": "1.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinuovos/test-manager.git"
   }
 }
